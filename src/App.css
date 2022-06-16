@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    max-width: 600px;
+}
+
+h1{
+    color: #451531;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+body{
+    background-color: #a5befa;
+}
+
+form{
+    text-align: center;
+    padding-top: 5vh;
+}
+
+ul{
+    list-style: square
+}
+
+li{
+    color: rgba(69, 21, 49, 1);
+    font-weight: bold;
+    padding: 2px;
+    justify-content: space-between;
+}
+
+li svg{
+    float: right;
+    margin-left: 15px;
+}
+
+li svg:hover{
+    color: #ff3877;
+}
+
+input{
+    background-color: #a5befa;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #ff3877;
+}
+
+button {
+    background-color: #ff3877;
+    border: none;
+    color: #451531;
+    padding: 6px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+
+.tarefas{
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+}
